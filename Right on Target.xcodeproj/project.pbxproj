@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA683B9E27C634B9007670BB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA683B9D27C634B9007670BB /* Game.swift */; };
 		FA7C8DFC27C2502A0025DDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C8DFB27C2502A0025DDE2 /* AppDelegate.swift */; };
 		FA7C8DFE27C2502A0025DDE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C8DFD27C2502A0025DDE2 /* SceneDelegate.swift */; };
 		FA7C8E0027C2502A0025DDE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C8DFF27C2502A0025DDE2 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA683B9D27C634B9007670BB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		FA7C8DF827C2502A0025DDE2 /* Right on Target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on Target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7C8DFB27C2502A0025DDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7C8DFD27C2502A0025DDE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA683B9C27C63490007670BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA683B9D27C634B9007670BB /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FA7C8DEF27C2502A0025DDE2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		FA7C8DFA27C2502A0025DDE2 /* Right on Target */ = {
 			isa = PBXGroup;
 			children = (
+				FA683B9C27C63490007670BB /* Model */,
 				FA7C8DFB27C2502A0025DDE2 /* AppDelegate.swift */,
 				FA7C8DFD27C2502A0025DDE2 /* SceneDelegate.swift */,
 				FA7C8DFF27C2502A0025DDE2 /* ViewController.swift */,
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACABF6727C5442D00BB31B0 /* SecondViewController.swift in Sources */,
+				FA683B9E27C634B9007670BB /* Game.swift in Sources */,
 				FA7C8E0027C2502A0025DDE2 /* ViewController.swift in Sources */,
 				FA7C8DFC27C2502A0025DDE2 /* AppDelegate.swift in Sources */,
 				FA7C8DFE27C2502A0025DDE2 /* SceneDelegate.swift in Sources */,
@@ -306,7 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karpinetsalexander.Right-on-Target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -335,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karpinetsalexander.Right-on-Target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
