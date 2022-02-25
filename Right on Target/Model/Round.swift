@@ -5,8 +5,6 @@
 //  Created by Karpinets Alexander on 23.02.2022.
 //
 
-import Foundation
-
 protocol GameRoundProtocol {
     var score: Int { get }
     var currentSecretValue: Int { get }

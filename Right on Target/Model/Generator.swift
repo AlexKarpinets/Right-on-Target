@@ -5,7 +5,6 @@
 //  Created by Karpinets Alexander on 23.02.2022.
 //
 
-import Foundation
 
 protocol GeneratorProtocol {
     func getRandomValue() -> Int
